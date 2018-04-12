@@ -1,0 +1,116 @@
+.navbar .navbar-brand{
+    float: right!important
+}
+
+/*
+.navbar-right{
+    float: left!important
+}
+*/
+
+#mainNav{
+    direction: rtl!important
+}
+
+#mainNav .navbar-right{
+    float: left!important
+}
+
+#mainNav .navbar-header{
+    float: right!important;
+    direction: rtl!important
+}
+
+#mainNav .navbar-right .navbar-nav li{
+    direction: rtl!important;
+    float: right!important;
+}
+
+.home_slider .carousel{
+    direction: rtl
+}
+
+.home_slider .carousel .item .carousel-caption h3{
+    text-align: right
+}
+
+.home_slider .carousel .item .carousel-caption h3:after{
+    left: 70%!important
+}
+
+.home_slider .carousel .item .carousel-caption p{
+    direction: rtl!important;
+    text-align: right
+}
+
+.nav-pills{
+    padding: 0
+}
+
+.about,
+.services,
+.contact{
+    direction: rtl
+}
+
+.about h2:after{
+    left: 37%
+}
+
+.about [alt="pencil"]{
+    right: auto;
+    left: 0;
+    bottom: -20px
+}
+
+@media(max-width: 775px){
+    .about h2:after{
+        left: 21%
+    }
+}
+
+.services .heading h2:after{
+    display: inline-block;
+    left: 37%
+}
+
+@media(max-width: 775px){
+    .services .heading h2:after{
+        display: inline-block;
+        left: 5%
+    }
+}
+
+.services .single_service .describe_service h2:after{
+    right: 35%
+}
+
+@media(max-width: 775px){
+    .services .single_service .describe_service h2:after{
+        right: 70%
+    }
+}
+
+.contact_info_right{
+    float: right
+}
+
+.contact_info_right ul:first-of-type{
+    padding-right: 0
+}
+
+.contact_info_right h3{
+    display: inline-block
+}
+
+.contact_info_right h3:after{
+    right: 85%
+}
+
+.contact_info_right ul:last-of-type{
+    padding: 0
+}
+
+.contact_form_left{
+    float: left
+}
